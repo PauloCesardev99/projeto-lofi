@@ -1,0 +1,78 @@
+/* BACKGROUND NO BODY*/
+body{
+    background: url(../img/Wallpaper-real.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+
+/* CABEÇALHO*/
+
+.cabecalho{
+    padding: 10px 5px;
+    background-color: rgba(255, 192, 203, 0.623);
+    position: relative;
+}
+
+.cabecalho .logo{
+    display: inline-block;
+    background: url(../img/Garota.webp) center center no-repeat;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+}   
+
+.cabecalho nav ul li {
+    display: inline-block;
+    padding: 0px 10px;
+    
+    
+    
+    
+    
+}
+.cabecalho nav{
+    text-align: right;
+    display: inline-block;
+    position: relative;
+    top: 92px;
+    left: 92px;
+    color: white;
+    
+
+    
+}
+
+.cabecalho .logo h1{
+    font-size: 0px;
+}
+
+.cabecalho nav ul li a:hover{
+    color: pink
+}
+.cabecalho nav ul li a{
+    color: white;
+    background-color: rgba(137, 43, 226, 0.11);
+    padding: 0px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 0.5px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*O que é lo-fi*/
+
+main{
+    background-color: rgba(255, 255, 255, 0.712);
+    width: 450px;
+    margin: auto;
+    padding: 30px;
+    
+}
+strong{
+    font-weight: bold;
+}
+
+.historia p{
+    margin: 20px 0px;
+}
