@@ -4,6 +4,14 @@ body{
     background-size: cover;
 }
 
+/* IMAGENS*/
+.imagem{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+
 
 /* CABEÇALHO*/
 
@@ -60,19 +68,36 @@ body{
 }
 
 
-/*O que é lo-fi*/
+/*O que é historia*/
 
 main{
     background-color: rgba(255, 255, 255, 0.712);
-    width: 450px;
+    width: 483px;
     margin: auto;
     padding: 30px;
     
 }
+
 strong{
     font-weight: bold;
 }
 
 .historia p{
     margin: 20px 0px;
+
+}
+
+.historia h1{
+    text-align: center;
+}
+
+/*Sobre Lofi*/
+
+ h2{
+    margin-top: 25px;
+
+}
+
+ p{
+    margin-top: 20px;
 }
