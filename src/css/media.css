@@ -1,0 +1,76 @@
+@media  (min-width: 1200px){
+    /* body */
+
+    body{
+        background-image: linear-gradient(to bottom, rgb(255, 192, 203) , rgb(255, 192, 203) , rgb(154, 2, 255) );
+    }
+
+
+
+    /*cabecalho */
+    .cabecalho{
+        padding: 10px 5px;
+        background-color: rgb(255, 192, 203);
+        position: relative;
+     }
+
+     .cabecalho .logo {
+        height: 120px;
+        width: 120px;
+
+     
+      
+
+    }
+
+    .cabecalho .logo img {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+
+    }
+
+    .cabecalho nav ul li {
+        color: white;
+        padding: 0px 10px;
+        border-radius: 10px;
+        text-shadow: 1px 1px 0.5px black;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-block;
+        
+        
+    }
+    .cabecalho nav{
+        display: inline-block;
+        position:  absolute;
+        top: 50%;
+        left: 60%;
+    }
+
+    /* Main*/
+    main{
+        margin-top: 10px;
+        width: 800px;
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    /* aside */
+    .referencia{
+        width: 800px;
+        background-color: rgba(255, 255, 255, 0.795);
+       
+    }
+
+    .referencia ul li{
+        display: inline-block;
+        padding: 0 10px;
+    }
+       
+        
+    /* rodape*/
+
+}

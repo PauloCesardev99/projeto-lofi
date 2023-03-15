@@ -1,7 +1,8 @@
-/* BACKGROUND NO BODY*/
+/* BODY*/
 body{
-    background: url(../img/Wallpaper-real.jpg) center center no-repeat;
-    background-size: cover;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
 }
 
 /* IMAGENS*/
@@ -18,60 +19,43 @@ body{
 .cabecalho{
     padding: 10px 5px;
     background-color: rgba(255, 192, 203, 0.623);
-    position: relative;
+    text-align: center;
+
 }
 
-.cabecalho .logo{
-    display: inline-block;
-    background: url(../img/Garota.webp) center center no-repeat;
-    height: 150px;
-    width: 150px;
+.cabecalho .logo img{
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
+    text-align: center;
     
 }   
 
-.cabecalho nav ul li {
-    display: inline-block;
-    padding: 0px 10px;
-    
-    
-    
-    
-    
-}
-.cabecalho nav{
-    text-align: right;
-    display: inline-block;
-    position: relative;
-    top: 92px;
-    left: 92px;
-    color: white;
-    
 
-    
-}
 
-.cabecalho .logo h1{
-    font-size: 0px;
-}
+
 
 .cabecalho nav ul li a:hover{
-    color: pink
+    font-weight: bold;
 }
 .cabecalho nav ul li a{
-    color: white;
-    background-color: rgba(137, 43, 226, 0.11);
-    padding: 0px;
-    border-radius: 10px;
-    text-shadow: 1px 1px 0.5px black;
+    color: whitesmoke;
+    background-color: rgba(199, 20, 154, 0.089);
+    padding: 0px 10px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 0.1px black;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.cabecalho nav ul li {
+    
+    padding: 2px;
+   
+}
 
 /*O que é historia*/
 
 main{
-    background-color: rgba(255, 255, 255, 0.712);
+    background-color: rgba(255, 255, 255, 0.795);
     width: 483px;
     margin: auto;
     padding: 30px;
@@ -100,4 +84,41 @@ strong{
 
  p{
     margin-top: 20px;
+}
+/* referencias aside */
+.referencia{
+    background-color: rgb(255, 255, 255);
+    width: 483px;
+    margin: auto;
+    padding: 30px;
+   text-align: center;
+}
+.referencia h1{
+   text-align: center;
+}
+.referencia ul li a {
+    text-decoration: underline;
+}
+.referencia ul li{
+    margin-top: 10px;
+}
+
+.referencia ul li a:hover {
+    font-weight: bold;
+
+}
+
+
+
+
+
+/* Rodapé */
+
+  .rodape{
+    text-align: center;
+    font-size: small;
+}
+
+.rodape h3 a:hover{
+        font-weight: bold;
 }
