@@ -48,7 +48,7 @@
         display: inline-block;
         position:  absolute;
         top: 50%;
-        left: 60%;
+        left: 50%;
     }
 
     /* Main*/
@@ -72,5 +72,14 @@
        
         
     /* rodape*/
+
+}
+
+@media  (min-width: 992px){
+
+main, .referencia{
+
+    width: 700px;
+}
 
 }
