@@ -56,7 +56,6 @@ body{
 
 main{
     background-color: rgba(255, 255, 255, 0.795);
-    width: 483px;
     margin: auto;
     padding: 30px;
     
@@ -88,7 +87,6 @@ strong{
 /* referencias aside */
 .referencia{
     background-color: rgb(255, 255, 255);
-    width: 483px;
     margin: auto;
     padding: 30px;
    text-align: center;
